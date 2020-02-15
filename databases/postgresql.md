@@ -48,3 +48,9 @@ CREATE DATABASE <dbname>;
 CREATE USER <username> WITH ENCRYPTED PASSWORD '<password>';
 GRANT ALL PRIVILEGES ON DATABASE <dbname> TO <username>;
 ```
+
+### Set timezone
+
+```sh
+ALTER DATABASE qna SET timezone TO 'Europe/Moscow';
+```
