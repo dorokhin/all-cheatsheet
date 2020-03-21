@@ -48,6 +48,14 @@ FLUSH PRIVILEGES;
 exit
 ```
 
+### .my.cnf
+```bash
+nano ~/.my.cnf
+>>>
+[client]
+user=root
+password=root
+```
 
 ### Create user
 ```sql
@@ -95,5 +103,6 @@ INSERT users (name) VALUES ('Andrew');
 ```sql
 SELECT * FROM users;
 ```
+
 
 
