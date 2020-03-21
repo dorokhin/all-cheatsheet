@@ -71,3 +71,29 @@ FLUSH PRIVILEGES;
 # optional
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password';
 ```
+
+### CREATE DATABASE, TABLE
+```sql
+CREATE DATABASE example;
+
+USE example;
+
+CREATE TABLE users (
+   id INT AUTO_INCREMENT NOT NULL,
+   name VARCHAR(30) NOT NULL,
+   primary key (id)
+) ENGINE = InnoDB DEFAULT CHARSET = utf8;
+```
+
+
+### INSERT
+```sql
+INSERT users (name) VALUES ('Andrew');
+```
+
+### SELECT
+```sql
+SELECT * FROM users;
+```
+
+
