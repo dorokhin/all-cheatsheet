@@ -99,6 +99,11 @@ CREATE TABLE users (
 INSERT users (name) VALUES ('Andrew');
 ```
 
+### Insert from file (dump)
+```bash
+mysql example < users.sql
+```
+
 ### SELECT
 ```sql
 SELECT * FROM users;
