@@ -15,6 +15,6 @@
 
 
 ### Ссылки:
-[PEP 3120 -- Using UTF-8 as the default source encoding](https://www.python.org/dev/peps/pep-3120/)
-[PEP 263 -- Defining Python Source Code Encodings](https://www.python.org/dev/peps/pep-0263/)
-[Should I use encoding declaration in Python 3?](https://stackoverflow.com/a/14083123)
+* [PEP 3120 -- Using UTF-8 as the default source encoding](https://www.python.org/dev/peps/pep-3120/)
+* [PEP 263 -- Defining Python Source Code Encodings](https://www.python.org/dev/peps/pep-0263/)
+* [Should I use encoding declaration in Python 3?](https://stackoverflow.com/a/14083123)
